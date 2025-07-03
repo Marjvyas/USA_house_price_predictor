@@ -57,6 +57,16 @@ House-Price-Prediction/
 ├── train_model.py               # Script for training model and scaler
 ├── README.md                    # This file
 ```
+## ✅ Requirements
+
+```
+flask
+flask-cors
+scikit-learn
+numpy
+pandas
+```
+
 ## ⚙️ Installation
 1. Backend (Flask + ML)
 ```
@@ -64,9 +74,9 @@ bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
 python app.py
 ```
+install all requirements
 2. Frontend (React)
 ```
 bash
@@ -74,6 +84,7 @@ cd frontend
 npm install
 npm run dev  # or npm start
 ```
+
 
 ## 📊 Model Training (train_model.py)
 
